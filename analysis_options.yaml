@@ -1,0 +1,19 @@
+include: package:pedantic/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - lib/src/locations.g.dart
+
+
+linter:
+  rules:
+    always_declare_return_types: true
+    camel_case_types : true
+    empty_constructor_bodies: true
+    annotate_overrides: true
+    avoid_init_to_null: true
+    constant_identifier_names: true
+    one_member_abstracts: true
+    slash_for_doc_comments: true
+    unnecessary_brace_in_string_interps: true
+    unawaited_futures : false
